@@ -168,6 +168,9 @@
         padding: 0px 0px;
         padding: 10px;
     }
+    .textarea-input-item{
+        width: 100% !important;
+    }
     .form-items_input{
         width: 50%;
         /*height: 35px;*/

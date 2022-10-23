@@ -216,3 +216,9 @@
         right: 70px;
     }
 }
+
+@media only screen and (max-width: 376px){
+    .menu-btn {
+        right: 25px;
+    }
+}
