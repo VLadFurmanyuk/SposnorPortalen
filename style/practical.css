@@ -1,0 +1,210 @@
+.practical{
+    padding-bottom: 200px;
+}
+
+.practical__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.practical__container_title{
+    width: 816px;
+}
+
+.practical__container_title:after{
+    content: '';
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    width: 120px;
+    height: 6px;
+    background: #3B7F26;
+    border-radius: 10px;
+}
+
+.practical__container_subtitle{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 150%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #52489C;
+    margin-top: 60px;
+}
+
+/*ITEMS*/
+
+.practical__container__content{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.practical__container__content_item{
+    width: 32%;
+    height: auto;
+    padding: 32px;
+
+    background-color: #FDFCFF;
+    box-shadow: 0px 18px 30px rgba(0, 0, 0, 0.08);
+    border-radius: 24px;
+}
+
+practical__container__content_item:nth-child(-n+1){
+    display: none;
+}
+
+.first-line{
+    height: auto;
+    height: 48px;
+}
+
+.second-line{
+    min-height: 72px;
+}
+
+.practical__container__content_item_subtitle{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #04151F;
+}
+
+.practical__container__content_item_title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 120%;
+    color: #52489C;
+    margin-top: 36px;
+}
+
+.practical-title-green{
+    color: #3B7F26;
+}
+
+.practical__container__content_item_text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #435057;
+    margin-top: 16px;
+    height: auto;
+}
+
+.practical-item-margin{
+    margin-top: 32px;
+}
+
+.second-practical-phase-first-line{
+    min-height: 144px;
+}
+
+.second-practical-phase-second-line{
+    min-height: 96px;
+}
+
+.second-practical-phase-third-line{
+    min-height: 120px;
+}
+
+.invisible-item{
+    visibility: hidden;
+}
+
+@media only screen and (max-width: 1196px){
+    .practical{
+        padding-bottom: 48px;
+    }
+    .practical__container_subtitle{
+        margin-top: 48px;
+    }
+    .practical__container__content_item{
+        width: 49%;
+    }
+    .practical__container__content_item_subtitle{
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .practical__container__content_item_title{
+        font-size: 24px;
+        line-height: 120%;
+    }
+    .practical__container__content_item_text{
+        font-size: 16px;
+        line-height: 150%;
+        min-height: 75px;
+    }
+    .second-line{
+        min-height: 96px;
+    }
+    .second-line-tablet{
+        min-height: 96px;
+    }
+    .practical-item-margin{
+        margin-top: 0;
+    }
+    .practical-item-margin-tablet{
+        margin-top: 32px;
+    }
+    .second-practical-phase-second-line{
+        min-height: 144px;
+    }
+    .invisible-item{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 865px){
+    .practical__container_title{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 720px){
+    .practical{
+        padding-bottom: 50px;
+    }
+    .practical__container_subtitle{
+        font-size: 22px;
+        line-height: 150%;
+    }
+    .practical__container__content{
+
+    }
+
+    .practical__container__content_item{
+        width: 100%;
+        height: auto;
+        padding: 32px;
+    }
+    .practical__container__content_item_subtitle{
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .practical__container__content_item_title{
+        font-size: 22px;
+        line-height: 120%;
+    }
+    .practical__container__content_item_text{
+        font-size: 16px;
+        line-height: 150%;
+    }
+    .practical__container__content_item:not(:first-child){
+        margin-top: 16px;
+    }
+    .mobile-practical-text{
+        min-height: 27px;
+    }
+}

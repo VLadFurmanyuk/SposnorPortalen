@@ -1,0 +1,112 @@
+.team{
+    padding-bottom: 200px;
+}
+
+.teams__container{
+
+}
+
+.teams__container_title:after{
+    content: '';
+    position: absolute;
+    bottom: -21px;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    width: 120px;
+    height: 6px;
+    background: #3B7F26;
+    border-radius: 10px;
+}
+
+.teams__container__content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.teams__container__content__left{
+
+}
+
+.teams__container__content__left_text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #435057;
+    margin-top: 82px;
+    width: 604px;
+}
+
+.teams__container__content__left_text > span{
+    font-weight: 700;
+    color: #435057;
+}
+
+.teams__container__content_button{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.teams__container__content_button button{
+    width: 288px;
+    height: 63px;
+    border: 1.5px solid #3B7F26;
+    border-radius: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    color: #3B7F26;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1196px){
+    .team{
+        padding-bottom: 160px;
+    }
+    .teams__container__content{
+        flex-direction: column;
+        align-items: center;
+    }
+    .teams__container__content__left_text{
+        margin-top: 0;
+        font-size: 18px;
+        line-height: 150%;
+    }
+    .teams__container__content__right{
+        margin-top: 25px;
+    }
+}
+
+@media only screen and (max-width: 720px){
+    .team{
+        padding-bottom: 100px;
+    }
+    .teams__container{
+
+    }
+    .teams__container__content{
+
+    }
+    .teams__container__content__left{
+
+    }
+    .teams__container__content__left_text{
+        font-size: 16px;
+        line-height: 150%;
+        width: 100%;
+    }
+    .teams__container__content__right{
+
+    }
+    .teams__container__content__right_image{
+        width: 100%;
+    }
+    .teams__container__content_button{
+        margin-top: 36px;
+    }
+}

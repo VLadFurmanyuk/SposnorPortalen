@@ -1,0 +1,190 @@
+/*POPUP "Know Which Team to Sponsor"*/
+
+.popup-bg-first{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 9999;
+    display: none;
+}
+
+.popup-bg-second{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 9999;
+    display: none;
+}
+
+.popup-bg-third{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 9999;
+    display: none;
+}
+
+.popup-bg-fourth{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 9999;
+    display: none;
+}
+
+.popup{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 604px;
+    padding: 0 418px;
+    height: auto;
+    padding: 36px 32px;
+    border-radius: 24px;
+    background: #fff;
+    padding: 20px;
+    transform: translate(-50%, -50%);
+    padding-top: 60px;
+}
+
+.close-popup{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.no-scroll{
+    overflow-y: hidden;
+}
+
+/*FORMS STYLE*/
+
+.popup-title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 120%;
+    color: #04151F;
+    position: relative;
+}
+
+/*FIRST FORM*/
+
+.form{
+
+}
+
+.form-items{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.first-form-line{
+    margin-top: 40px;
+}
+
+.popup_title:after{
+    content: '';
+    width: 120px;
+    height: 6px;
+    background: #3B7F26;
+    border-radius: 10px;
+    position: absolute;
+    bottom: -12px;
+    left: 0;
+}
+
+.form-items_input{
+    width: 260px;
+    height: 49px;
+    border: 1px solid #D8E5D4;
+    border-radius: 8px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #727C81;
+    padding-left: 14px;
+}
+
+.form-items_select{
+    padding-left: 14px;
+}
+
+.single-input-item{
+    width: 100%;
+    height: 50px;
+    border: 1px solid #D8E5D4;
+    border-radius: 8px;
+}
+
+.form-items_button{
+    width: 100%;
+    height: 61px;
+    background: #3B7F26;
+    border-radius: 10px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.textarea-input-item{
+    width: 100%;
+    height: 120px;
+}
+
+@media only screen and (max-width: 720px){
+    .popup-title{
+        font-size: 25px;
+        width: 90%;
+    }
+    .popup{
+        width: 90%;
+        height: auto;
+        padding: 0px 0px;
+        padding: 10px;
+    }
+    .form-items_input{
+        width: 50%;
+        /*height: 35px;*/
+    }
+    .single-input-item{
+        width: 100%;
+        /*height: 35px;*/
+    }
+    .form-items{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+    .first-form-line{
+        margin-top: 15px;
+    }
+    .popup_title:after{
+        display: none;
+    }
+}
